@@ -1,4 +1,9 @@
 body {
+  color: #222622;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: rgb(192, 190, 190);
 }
 
 img {
