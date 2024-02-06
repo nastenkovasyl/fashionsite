@@ -1,0 +1,47 @@
+.fashion {
+  padding-top: 115px;
+  background-color: #fff;
+}
+.fashion-container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+.fashion-title {
+  font-size: 20px;
+  font-weight: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.fashion-text {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 65px;
+}
+.fashion-cards {
+  display: flex;
+  gap: 22px;
+}
+.card-photo {
+  margin-bottom: 38px;
+}
+.card-category {
+  font-size: 15px;
+  font-weight: 300;
+}
+.card-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+.old_price {
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: line-through;
+  margin-right: 25px;
+}
+.new_price {
+  font-size: 15px;
+  font-weight: 400;
+  color: #cf2929;
+  display: inline-block;
+}

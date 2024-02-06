@@ -33,9 +33,6 @@
 .photo-container {
   position: relative;
 }
-.categories-text {
-  transition: opacity 1s ease 0.5s;
-}
 .photo-container:hover .categories-text {
   opacity: 1;
 }
@@ -54,4 +51,5 @@
   text-align: center;
   transform: translate(-50%, -50%);
   opacity: 0;
+  transition: opacity 1s ease 0.5s;
 }
