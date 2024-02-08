@@ -1,9 +1,32 @@
 .tachen {
   background-color: #fff;
+  height: 100vh;
+  background-image: url(../img/tachen19/backgraund.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 130px;
+  display: flex;
+  align-items: flex-end;
 }
 .tachen-container {
   margin: 0 auto;
   max-width: 1128px;
+  flex-grow: 1;
 }
-.tachen-subtitle {
+.tachen-title {
+  font-weight: 700;
+  font-size: 80px;
+}
+.tachen-link {
+  color: #fff;
+  background-color: #22262a;
+  padding: 5px 25px;
+}
+.footer-top_container {
+  max-width: 1128px;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
 }
