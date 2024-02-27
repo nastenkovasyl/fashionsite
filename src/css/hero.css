@@ -34,4 +34,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: background-color, color;
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
+}
+.hero-link:hover {
+  background-color: #fff;
+  color: #22262a;
 }

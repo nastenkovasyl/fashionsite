@@ -20,15 +20,26 @@
 .categories-main {
   position: relative;
 }
+.categories-main:hover .categories-main-img {
+  filter: brightness(100%);
+}
 .categories-main-link {
   position: absolute;
   left: 30px;
   bottom: 25px;
   background-color: #fff;
   padding: 5px 25px;
+  transition-property: background-color, color;
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
+}
+.categories-main-link:hover {
+  background-color: #22262a;
+  color: #fff;
 }
 .categories-main-img {
   filter: brightness(50%);
+  transition: filter 0.2s ease-in;
 }
 .photo-container {
   position: relative;

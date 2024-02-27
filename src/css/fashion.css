@@ -22,8 +22,15 @@
   display: flex;
   gap: 22px;
 }
+.card-img {
+  transition: transform 0.2s ease-in;
+}
+.fashion-card:hover .card-img {
+  transform: scale(110%);
+}
 .card-photo {
   margin-bottom: 38px;
+  overflow: hidden;
 }
 .card-category {
   font-size: 15px;
@@ -44,4 +51,12 @@
   font-weight: 400;
   color: #cf2929;
   display: inline-block;
+  transition-property: background-color, color;
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
+}
+.new_price:hover {
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
 }

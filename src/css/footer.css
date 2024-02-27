@@ -11,6 +11,7 @@
 }
 .footer-column {
   max-width: 530px;
+  flex-grow: 1;
 }
 .cooperation-title {
   font-weight: 700;
@@ -40,6 +41,10 @@
   font-weight: 400;
   font-size: 15px;
   position: relative;
+  transition: opacity 0.4s ease-in;
+}
+.cooperation-mail:hover {
+  opacity: 0.7;
 }
 .cooperation-mail::after {
   content: "";
@@ -55,6 +60,10 @@
   font-weight: 400;
   font-size: 15px;
   margin-bottom: 15px;
+  transition: opacity 0.4s ease-in;
+}
+.cooperation-tel:hover {
+  opacity: 0.7;
 }
 .cooperation-text {
   font-size: 15px;
@@ -73,6 +82,12 @@
   display: flex;
   justify-content: center;
 }
+.social-item {
+  transition: transform 0.2s ease-in;
+}
+.social-item:hover {
+  transform: translateY(-5px) scale(2);
+}
 .social-list {
   display: flex;
   gap: 17px;
@@ -81,4 +96,65 @@
 .social-icon {
   width: 13px;
   height: 13px;
+}
+.subscribe-title {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.scribeubs-form {
+  background-color: #fff;
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 70px;
+}
+.subscribe-button {
+  font-weight: 600;
+  font-size: 15px;
+  color: #22262a;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  transition: opacity 0.2s ease-in;
+}
+.subscribe-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.subscribe-email::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  color: #22262a;
+  font-family: "Poppins", sans-serif;
+}
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-item-title {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.navigation-item-title {
+  font-weight: 600;
+  font-size: 20px;
+}
+.footer-nav-link {
+  font-weight: 400;
+  font-size: 15px;
+  transition-property: background-color, color;
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
+}
+.footer-nav-link:hover {
+  color: #fff;
+  background-color: black;
+}
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
